@@ -1,0 +1,32 @@
+/* Column container */
+.column {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 300px;
+    min-width: 250px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Column header */
+.column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Task count styling */
+.task-count {
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #666;
+}

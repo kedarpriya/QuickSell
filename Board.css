@@ -1,0 +1,16 @@
+/* Board container styling */
+.board {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+/* Scrollbar styling for the board */
+.board::-webkit-scrollbar {
+    height: 8px;
+}
+.board::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
